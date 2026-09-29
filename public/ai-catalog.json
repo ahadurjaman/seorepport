@@ -1,0 +1,84 @@
+{
+  "$schema": "https://schemas.agentcatalog.org/v1/ai-catalog.json",
+  "name": "SEO Report Tools",
+  "description": "Comprehensive suite of 30+ free website SEO analysis, audit, and diagnostic reporting tools for developers, marketers, and autonomous AI agents.",
+  "version": "1.0.0",
+  "url": "https://seoreporttools.com",
+  "provider": {
+    "name": "SEO Report Tools",
+    "url": "https://seoreporttools.com",
+    "email": "support@seoreporttools.com"
+  },
+  "capabilities": [
+    "seo-audit",
+    "technical-seo-analysis",
+    "core-web-vitals",
+    "pagespeed-insights",
+    "structured-data-validation",
+    "security-headers-scan",
+    "dns-lookup",
+    "ssl-verification",
+    "agentic-browsing"
+  ],
+  "resources": [
+    {
+      "id": "full-seo-audit",
+      "name": "Full SEO Audit API",
+      "type": "api",
+      "description": "Performs full diagnostic technical, on-page, speed, mobile, security, and content SEO audit on any public website.",
+      "endpoint": "https://seoreporttools.com/api/audit",
+      "method": "POST",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Target website URL to analyze (e.g. https://example.com)"
+          }
+        },
+        "required": ["url"]
+      }
+    },
+    {
+      "id": "public-report-retrieval",
+      "name": "Public Report Retrieval API",
+      "type": "api",
+      "description": "Retrieves persistent JSON audit report by unique report token.",
+      "endpoint": "https://seoreporttools.com/api/reports/{id}",
+      "method": "GET"
+    },
+    {
+      "id": "llms-context",
+      "name": "Agent Documentation Context",
+      "type": "document",
+      "description": "llms.txt markdown documentation providing structured site context for LLM agents.",
+      "url": "https://seoreporttools.com/llms.txt"
+    },
+    {
+      "id": "tools-directory",
+      "name": "SEO Tools Directory",
+      "type": "ui",
+      "description": "Interactive web UI containing 30+ specialized single-purpose SEO diagnostic tools.",
+      "url": "https://seoreporttools.com/tools"
+    },
+    {
+      "id": "audit-history-tracker",
+      "name": "SEO Audit Score History Tracker",
+      "type": "ui",
+      "description": "Interactive Recharts visual trend tracker showing website SEO score progression over time.",
+      "url": "https://seoreporttools.com/audit-history"
+    },
+    {
+      "id": "faq-schema-generator",
+      "name": "FAQ Schema Generator",
+      "type": "ui",
+      "description": "Visual builder and JSON-LD generator for Schema.org FAQPage structured data.",
+      "url": "https://seoreporttools.com/tools/faq-schema-generator"
+    }
+  ],
+  "agentAccess": {
+    "enabled": true,
+    "instructions": "Autonomous AI agents may query public endpoints and consume /llms.txt. Respect standard rate limits."
+  }
+}

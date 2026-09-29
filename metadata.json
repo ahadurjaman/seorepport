@@ -1,0 +1,6 @@
+{
+  "name": "SEO Report Tools",
+  "description": "Free SEO tools to analyze your website, generate SEO reports, check technical SEO, meta tags, backlinks, page speed, Core Web Vitals and more. No login required.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

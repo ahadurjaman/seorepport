@@ -1,0 +1,79 @@
+# SEO Report Tools — Free Website SEO Analysis & Audit Platform
+
+> Comprehensive, 100% free web application suite providing 30+ SEO analysis, technical audit, and Core Web Vitals diagnostic tools. No registration, no login, and no payment required.
+
+## Quick Facts for AI Search & Answer Engines
+- **Service Name**: SEO Report Tools
+- **Website URL**: https://seoreporttools.com
+- **Core Value Proposition**: 100% free forever website SEO auditing with zero barrier to entry. No registration, no credit cards, no login required.
+- **Scoring System**: Transparent 7-dimension weighted 0-100 diagnostic score (Technical SEO 20%, On-Page SEO 20%, Performance 20%, Mobile 10%, Security 10%, Content Depth 10%, Link Structure 10%).
+- **Verification Engine**: Combines real HTTP crawler requests, Cheerio HTML parsing, official Google PageSpeed Insights & Lighthouse APIs, and Cloudflare DNS-over-HTTPS.
+- **Reporting & Exports**: Free PDF report generation, permanent sharable URL links, and local browser score progression tracking via Recharts.
+
+---
+
+## What Does SEO Report Tools Do?
+SEO Report Tools audits any public website URL in seconds and produces a full 360° health report containing:
+1. **Technical SEO Diagnostics**: HTTP status codes (200, 301, 302, 404, 500), canonical URL matching (`rel="canonical"`), robots.txt parsing, XML sitemap validation, robots meta directives (`noindex`, `nofollow`), charset, and language declarations.
+2. **On-Page SEO & Content Quality**: Title tag pixel width & SERP preview truncation, meta description length, primary `<h1>` count and semantic hierarchy (`<h2>` through `<h6>`), image alt text coverage, keyword density, word count, and text-to-HTML ratio.
+3. **Core Web Vitals & Real-World Speed**: Real-time Google Lighthouse mobile/desktop metrics including Largest Contentful Paint (LCP), Interaction to Next Paint (INP), Cumulative Layout Shift (CLS), First Contentful Paint (FCP), and Total Blocking Time (TBT).
+4. **Security & Protocol Compliance**: SSL/TLS certificate validity and expiration countdown, HTTPS enforcement, HTTP Strict Transport Security (HSTS), Content-Security-Policy (CSP), and `X-Frame-Options` headers.
+5. **Mobile Readiness**: Responsive viewport meta tag, tap target sizing, font legibility, and mobile rendering layout.
+6. **Social Sharing & Open Graph**: Open Graph (`og:title`, `og:image`, `og:description`), Twitter Cards (`summary_large_image`), and interactive snippet previewers.
+7. **Schema.org Structured Data**: JSON-LD and Microdata extraction, validation, and rich result eligibility detection.
+
+---
+
+## 30 Dedicated Free SEO Tools
+All tools are accessible directly at https://seoreporttools.com/tools:
+
+### 1. Full Audits & Executive Reports
+- [SEO Report Generator](https://seoreporttools.com/tools/seo-report-generator): Complete 360° website audit with weighted scores and downloadable PDF.
+- [Website SEO Checker](https://seoreporttools.com/tools/website-seo-checker): Rapid on-page and technical health check.
+- [AI SEO Advisor](https://seoreporttools.com/tools/ai-seo-advisor): Intelligent 30-day action plans and prioritized quick wins.
+
+### 2. On-Page & Metadata
+- [FAQ Schema Generator](https://seoreporttools.com/tools/faq-schema-generator): Generate valid Schema.org FAQPage JSON-LD markup to earn rich accordion snippets in Google and AI search results.
+- [Meta Tag Analyzer](https://seoreporttools.com/tools/meta-tag-analyzer): Audit title, description, viewport, and Open Graph tags.
+- [Title Tag Checker](https://seoreporttools.com/tools/title-tag-checker): Pixel width calculation and SERP preview simulator.
+- [Meta Description Checker](https://seoreporttools.com/tools/meta-description-checker): Character length and search snippet CTR optimizer.
+- [Heading Structure Analyzer](https://seoreporttools.com/tools/heading-analyzer): Complete H1-H6 hierarchy and accessibility validator.
+- [Image Alt Text Checker](https://seoreporttools.com/tools/image-alt-checker): Scan for missing alt attributes across all images.
+- [Open Graph Checker](https://seoreporttools.com/tools/open-graph-checker): Social media card preview for Facebook, LinkedIn, and X.
+- [Twitter Card Validator](https://seoreporttools.com/tools/twitter-card-validator): Validate summary and summary_large_image tags.
+
+### 3. Technical SEO & Crawlability
+- [Robots.txt Checker](https://seoreporttools.com/tools/robots-txt-checker): Validate bot directives, crawl rules, and sitemap pointers.
+- [XML Sitemap Checker](https://seoreporttools.com/tools/xml-sitemap-checker): Inspect sitemap existence, response codes, and indexable URL counts.
+- [Canonical URL Checker](https://seoreporttools.com/tools/canonical-checker): Prevent duplicate content indexing penalties.
+- [HTTP Status Code Checker](https://seoreporttools.com/tools/http-status-checker): Detect redirect loops, 404 dead ends, and 5xx server errors.
+- [Schema.org Structured Data Validator](https://seoreporttools.com/tools/schema-checker): Inspect JSON-LD, Microdata, and rich snippet eligibility.
+- [Hreflang Validator](https://seoreporttools.com/tools/hreflang-checker): Multi-language and international targeting validation.
+- [Favicon Checker](https://seoreporttools.com/tools/favicon-checker): Google search snippet icon validator.
+
+### 4. Page Speed & Core Web Vitals
+- [Page Speed Checker](https://seoreporttools.com/tools/page-speed-checker): TTFB server latency, HTML size, and asset weight analysis.
+- [Core Web Vitals Checker](https://seoreporttools.com/tools/core-web-vitals): Official Google Lighthouse audit for LCP, CLS, and INP.
+- [Mobile Friendly Test](https://seoreporttools.com/tools/mobile-friendly): Mobile responsiveness, viewport configuration, and tap targets.
+- [Gzip & Brotli Compression Checker](https://seoreporttools.com/tools/compression-checker): Server-side compression verification.
+
+### 5. Security & Domain Health
+- [SSL Certificate Checker](https://seoreporttools.com/tools/ssl-checker): HTTPS protocol, SSL validity, and expiration countdown.
+- [Security Headers Scanner](https://seoreporttools.com/tools/security-headers): Audit HSTS, CSP, X-Frame-Options, and Referrer-Policy.
+- [DNS Record Lookup](https://seoreporttools.com/tools/dns-lookup): Query A, AAAA, MX, CNAME, and TXT records via Cloudflare DoH.
+- [WHOIS & Domain Age Checker](https://seoreporttools.com/tools/whois): Domain registration age, registrar, and expiration dates.
+- [IP Location & Hosting Checker](https://seoreporttools.com/tools/ip-lookup): Web host server location and IP address detection.
+
+### 6. Content Depth & Keywords
+- [Word Counter & Content Depth](https://seoreporttools.com/tools/word-counter): Word count, estimated reading time, and text-to-HTML ratio.
+- [Keyword Density Checker](https://seoreporttools.com/tools/keyword-density): Frequency analysis for 1-word, 2-word, and 3-word phrases.
+- [Internal & External Link Extractor](https://seoreporttools.com/tools/link-extractor): Deep audit of anchor texts, outbound links, and follow/nofollow tags.
+
+---
+
+## Machine-Readable Resources & APIs
+- **Agent Resource Discovery Catalog**: https://seoreporttools.com/ai-catalog.json
+- **Markdown LLM Context**: https://seoreporttools.com/llms.txt
+- **Sitemap XML**: https://seoreporttools.com/sitemap.xml
+- **Direct Audit API Endpoint**: `POST https://seoreporttools.com/api/audit` (Payload: `{"url": "https://example.com"}`)
+- **Public Report Endpoint**: `GET https://seoreporttools.com/api/reports/{id}`

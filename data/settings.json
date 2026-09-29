@@ -1,0 +1,14 @@
+{
+  "adProvider": "adsterra",
+  "adsterraPopunder": false,
+  "adsterraSocialBar": false,
+  "adsterraBanner728": true,
+  "adsterraNativeBanner": false,
+  "adblockDetector": true,
+  "adsenseClientId": "",
+  "adsenseSlotId": "",
+  "googleApiKey": "AIzaSyDE3StW0G2GX986zwsllOubZdNRa85wBrI",
+  "cacheDurationMinutes": 60,
+  "maxAuditsPerHour": 50,
+  "blockedDomains": ["localhost", "127.0.0.1", "internal.net"]
+}

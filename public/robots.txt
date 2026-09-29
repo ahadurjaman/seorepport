@@ -1,0 +1,53 @@
+# https://www.robotstxt.org/robotstxt.html
+# Allow full discovery for search engines and autonomous AI agents
+
+User-agent: *
+Allow: /
+Allow: /tools/
+Allow: /blog/
+Allow: /audit-history
+Allow: /llms.txt
+Allow: /ai-catalog.json
+
+# Explicitly grant access to AI Search Crawlers & Retrieval Bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+User-agent: Omgili
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Disallow private/admin endpoints
+Disallow: /admin
+Disallow: /api/
+
+Sitemap: https://seoreporttools.com/sitemap.xml

@@ -1,0 +1,551 @@
+{
+  "id": "56bfbdd125ccd834",
+  "url": "https://seoreporttools.com/",
+  "canonicalUrl": "https://seoreporttools.com",
+  "domain": "seoreporttools.com",
+  "timestamp": "2026-09-29T11:48:40.144Z",
+  "overallScore": 82,
+  "statusSummary": {
+    "criticalCount": 3,
+    "warningCount": 5,
+    "passCount": 18,
+    "totalChecks": 26
+  },
+  "categories": {
+    "technical": {
+      "category": "technicalseo",
+      "label": "Technical SEO",
+      "score": 98,
+      "weight": 20,
+      "passCount": 7,
+      "warningCount": 1,
+      "failCount": 0,
+      "checks": [
+        {
+          "id": "http_status",
+          "name": "HTTP Status Code",
+          "category": "technical",
+          "status": "PASS",
+          "score": 100,
+          "weight": 3,
+          "value": 200,
+          "message": "Server returned status code 200 OK."
+        },
+        {
+          "id": "canonical_tag",
+          "name": "Canonical Tag",
+          "category": "technical",
+          "status": "PASS",
+          "score": 100,
+          "weight": 3,
+          "value": "https://seoreporttools.com",
+          "message": "Canonical URL is defined: https://seoreporttools.com"
+        },
+        {
+          "id": "robots_txt",
+          "name": "Robots.txt Availability",
+          "category": "technical",
+          "status": "PASS",
+          "score": 100,
+          "weight": 2,
+          "value": "Found",
+          "message": "Valid robots.txt file detected on root."
+        },
+        {
+          "id": "xml_sitemap",
+          "name": "XML Sitemap Availability",
+          "category": "technical",
+          "status": "PASS",
+          "score": 100,
+          "weight": 2,
+          "value": "Found",
+          "message": "Standard XML sitemap detected at /sitemap.xml."
+        },
+        {
+          "id": "robots_meta",
+          "name": "Robots Meta Directives",
+          "category": "technical",
+          "status": "PASS",
+          "score": 100,
+          "weight": 2,
+          "value": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+          "message": "Page allows search engine indexation."
+        },
+        {
+          "id": "schema_markup",
+          "name": "Structured Data (Schema.org)",
+          "category": "technical",
+          "status": "PASS",
+          "score": 100,
+          "weight": 2,
+          "value": "WebSite, Organization, WebApplication",
+          "message": "Structured data detected: WebSite, Organization, WebApplication"
+        },
+        {
+          "id": "agentic_llms_txt",
+          "name": "Agent Discoverability (llms.txt)",
+          "category": "technical",
+          "status": "WARNING",
+          "score": 70,
+          "weight": 1,
+          "value": "Found with format warnings",
+          "message": "llms.txt detected but recommended # H1 header or navigation links may be missing.",
+          "recommendation": "Ensure /llms.txt starts with an \"# H1 Title\" and includes Markdown links [Anchor](URL)."
+        },
+        {
+          "id": "agentic_ai_catalog",
+          "name": "AI Agent Catalog (ai-catalog.json)",
+          "category": "technical",
+          "status": "PASS",
+          "score": 90,
+          "weight": 1,
+          "value": "Not Configured (Optional)",
+          "message": "ai-catalog.json not detected. Adding an ai-catalog.json manifest helps autonomous agent registries verify web APIs and tools.",
+          "recommendation": "Serve a valid application/json manifest at /ai-catalog.json to enable autonomous AI agent discovery."
+        }
+      ]
+    },
+    "onpage": {
+      "category": "onpageseo",
+      "label": "On-Page SEO",
+      "score": 71,
+      "weight": 20,
+      "passCount": 3,
+      "warningCount": 1,
+      "failCount": 1,
+      "checks": [
+        {
+          "id": "title_presence",
+          "name": "Title Tag Optimization",
+          "category": "onpage",
+          "status": "PASS",
+          "score": 100,
+          "weight": 4,
+          "value": "Free SEO Tools & SEO Report Generator | SEO Report Tools (56 chars)",
+          "message": "Title length is 56 characters (ideal range: 30–65 characters)."
+        },
+        {
+          "id": "meta_description",
+          "name": "Meta Description Optimization",
+          "category": "onpage",
+          "status": "PASS",
+          "score": 100,
+          "weight": 3,
+          "value": "Free SEO tools to analyze your website, generate SEO reports, check technical SE... (161 chars)",
+          "message": "Meta description length is 161 characters (ideal range: 120–160 characters)."
+        },
+        {
+          "id": "h1_heading",
+          "name": "Primary H1 Tag",
+          "category": "onpage",
+          "status": "FAIL",
+          "score": 0,
+          "weight": 3,
+          "value": "0 H1 tags detected",
+          "message": "No H1 heading found on page.",
+          "recommendation": "Ensure each page has exactly one descriptive H1 tag that encapsulates the page topic."
+        },
+        {
+          "id": "headings_hierarchy",
+          "name": "Heading Structure (H2 & H3)",
+          "category": "onpage",
+          "status": "WARNING",
+          "score": 50,
+          "weight": 2,
+          "value": "0 H2 tags, 0 H3 tags",
+          "message": "No H2 subheadings found. Headings structure helps both users and search engines navigate content.",
+          "recommendation": "Break up content into logical sections with H2 and H3 subheadings."
+        },
+        {
+          "id": "open_graph",
+          "name": "Open Graph & Social Cards",
+          "category": "onpage",
+          "status": "PASS",
+          "score": 100,
+          "weight": 2,
+          "value": "og:title=\"Free SEO Tools & SEO Report Generator | SEO Report Tools\"",
+          "message": "Open Graph social metadata is configured."
+        }
+      ]
+    },
+    "performance": {
+      "category": "performance",
+      "label": "Performance",
+      "score": 100,
+      "weight": 20,
+      "passCount": 3,
+      "warningCount": 0,
+      "failCount": 0,
+      "checks": [
+        {
+          "id": "response_time",
+          "name": "Server Response Time (TTFB estimate)",
+          "category": "performance",
+          "status": "PASS",
+          "score": 100,
+          "weight": 4,
+          "value": "207 ms",
+          "message": "Fast server response time (207 ms)."
+        },
+        {
+          "id": "html_payload_size",
+          "name": "HTML Document Size",
+          "category": "performance",
+          "status": "PASS",
+          "score": 100,
+          "weight": 3,
+          "value": "4.1 KB",
+          "message": "Lightweight HTML payload (4.1 KB)."
+        },
+        {
+          "id": "compression",
+          "name": "HTTP Compression (Gzip / Brotli)",
+          "category": "performance",
+          "status": "PASS",
+          "score": 100,
+          "weight": 3,
+          "value": "br",
+          "message": "Text compression enabled (br)."
+        }
+      ]
+    },
+    "mobile": {
+      "category": "mobile",
+      "label": "Mobile",
+      "score": 100,
+      "weight": 10,
+      "passCount": 2,
+      "warningCount": 0,
+      "failCount": 0,
+      "checks": [
+        {
+          "id": "viewport_meta",
+          "name": "Mobile Viewport Tag",
+          "category": "mobile",
+          "status": "PASS",
+          "score": 100,
+          "weight": 5,
+          "value": "width=device-width, initial-scale=1.0",
+          "message": "Responsive viewport meta tag correctly defined."
+        },
+        {
+          "id": "html_language",
+          "name": "HTML Language Declaration",
+          "category": "mobile",
+          "status": "PASS",
+          "score": 100,
+          "weight": 2,
+          "value": "en",
+          "message": "Language declared: \"en\""
+        }
+      ]
+    },
+    "security": {
+      "category": "security",
+      "label": "Security",
+      "score": 81,
+      "weight": 10,
+      "passCount": 1,
+      "warningCount": 2,
+      "failCount": 0,
+      "checks": [
+        {
+          "id": "https_protocol",
+          "name": "HTTPS & SSL Security",
+          "category": "security",
+          "status": "PASS",
+          "score": 100,
+          "weight": 5,
+          "value": "Let's Encrypt (87 days valid)",
+          "message": "Site is encrypted with HTTPS (Let's Encrypt, 87 days left)."
+        },
+        {
+          "id": "hsts_header",
+          "name": "HSTS (Strict-Transport-Security)",
+          "category": "security",
+          "status": "WARNING",
+          "score": 50,
+          "weight": 2,
+          "value": "Not Set",
+          "message": "HSTS header is missing.",
+          "recommendation": "Configure HSTS to ensure browsers always connect over HTTPS."
+        },
+        {
+          "id": "x_content_type_options",
+          "name": "X-Content-Type-Options Header",
+          "category": "security",
+          "status": "WARNING",
+          "score": 50,
+          "weight": 1,
+          "value": "Missing",
+          "message": "X-Content-Type-Options: nosniff header is missing.",
+          "recommendation": "Add \"X-Content-Type-Options: nosniff\" to prevent MIME-type sniffing."
+        }
+      ]
+    },
+    "content": {
+      "category": "content",
+      "label": "Content",
+      "score": 53,
+      "weight": 10,
+      "passCount": 1,
+      "warningCount": 1,
+      "failCount": 1,
+      "checks": [
+        {
+          "id": "word_count",
+          "name": "Content Word Count",
+          "category": "content",
+          "status": "FAIL",
+          "score": 20,
+          "weight": 4,
+          "value": "0 words",
+          "message": "Thin content detected (0 words). Google favors comprehensive, helpful content.",
+          "recommendation": "Expand page text to provide deeper, helpful answers to user queries (target at least 300–500 words)."
+        },
+        {
+          "id": "image_alt_tags",
+          "name": "Image Alt Attributes",
+          "category": "content",
+          "status": "PASS",
+          "score": 100,
+          "weight": 3,
+          "value": "No images on page",
+          "message": "No images on page."
+        },
+        {
+          "id": "text_to_html",
+          "name": "Text to HTML Ratio",
+          "category": "content",
+          "status": "WARNING",
+          "score": 50,
+          "weight": 2,
+          "value": "0%",
+          "message": "Low text-to-code ratio (0%). The page contains a high proportion of code or scripts compared to readable text.",
+          "recommendation": "Increase readable body copy and remove unnecessary boilerplate code or heavy inline scripts."
+        }
+      ]
+    },
+    "links": {
+      "category": "links",
+      "label": "Links",
+      "score": 43,
+      "weight": 10,
+      "passCount": 1,
+      "warningCount": 0,
+      "failCount": 1,
+      "checks": [
+        {
+          "id": "internal_links",
+          "name": "Internal Linking Architecture",
+          "category": "links",
+          "status": "FAIL",
+          "score": 20,
+          "weight": 5,
+          "value": "0 internal links",
+          "message": "Few internal links (0) detected.",
+          "recommendation": "Add more internal links to connect relevant pages and help search engine bots discover your site structure."
+        },
+        {
+          "id": "external_links",
+          "name": "Outbound / External Links",
+          "category": "links",
+          "status": "PASS",
+          "score": 100,
+          "weight": 2,
+          "value": "0 external links",
+          "message": "Found 0 outbound links."
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "title": "Free SEO Tools & SEO Report Generator | SEO Report Tools",
+    "titleLength": 56,
+    "description": "Free SEO tools to analyze your website, generate SEO reports, check technical SEO, meta tags, backlinks, page speed, Core Web Vitals and more. No login required.",
+    "descriptionLength": 161,
+    "canonical": "https://seoreporttools.com",
+    "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "viewport": "width=device-width, initial-scale=1.0",
+    "language": "en",
+    "charset": "UTF-8",
+    "favicon": "/favicon.ico",
+    "themeColor": "#4f46e5"
+  },
+  "headings": {
+    "h1": [],
+    "h2": [],
+    "h3": [],
+    "h4Count": 0,
+    "h5Count": 0,
+    "h6Count": 0
+  },
+  "content": {
+    "wordCount": 0,
+    "characterCount": 0,
+    "readingTimeMinutes": 1,
+    "textToHtmlRatio": 0,
+    "topKeywords": []
+  },
+  "images": {
+    "total": 0,
+    "withAlt": 0,
+    "withoutAlt": 0,
+    "missingAltList": []
+  },
+  "links": {
+    "total": 0,
+    "internal": 0,
+    "external": 0,
+    "internalLinks": [],
+    "externalLinks": []
+  },
+  "technical": {
+    "statusCode": 200,
+    "responseTimeMs": 207,
+    "redirectCount": 0,
+    "redirectChain": [
+      "https://seoreporttools.com/"
+    ],
+    "isHttps": true,
+    "hasHttp2Or3": true,
+    "htmlSizeKb": 4.1,
+    "isGzipOrBrotli": true,
+    "robotsTxtStatus": "PASS",
+    "robotsTxtFound": true,
+    "sitemapStatus": "PASS",
+    "sitemapFound": true,
+    "sitemapUrl": "https://seoreporttools.com/sitemap.xml",
+    "sslCertificate": {
+      "valid": true,
+      "issuer": "Let's Encrypt",
+      "subject": "*.seoreporttools.com",
+      "validFrom": "Sep 27 06:15:30 2026 GMT",
+      "validTo": "Dec 26 06:15:29 2026 GMT",
+      "daysRemaining": 87,
+      "protocol": "TLSv1.3",
+      "isExpired": false,
+      "serialNumber": "063D4D472D3BE2F1C0D5BC881A819BDA8649"
+    },
+    "securityHeaders": {
+      "hsts": false,
+      "csp": false,
+      "xFrameOptions": null,
+      "xContentTypeOptions": null,
+      "referrerPolicy": null,
+      "permissionsPolicy": null
+    }
+  },
+  "openGraph": {
+    "hasOg": true,
+    "title": "Free SEO Tools & SEO Report Generator | SEO Report Tools",
+    "description": "Free SEO tools to analyze your website, generate SEO reports, check technical SEO, meta tags, backlinks, page speed, Core Web Vitals and more. No login required.",
+    "image": "https://seoreporttools.com/og-image.png",
+    "url": "https://seoreporttools.com",
+    "type": "website",
+    "twitterCard": "summary_large_image"
+  },
+  "schema": {
+    "hasSchema": true,
+    "typesFound": [
+      "WebSite",
+      "Organization",
+      "WebApplication"
+    ],
+    "itemsCount": 1,
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "name": "SEO Report Tools",
+            "url": "https://seoreporttools.com",
+            "description": "Comprehensive suite of 30+ free website SEO analysis, audit, and reporting tools. No login required.",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://seoreporttools.com/?analyze={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "Organization",
+            "name": "SEO Report Tools",
+            "url": "https://seoreporttools.com",
+            "logo": "https://seoreporttools.com/og-image.png",
+            "sameAs": [
+              "https://twitter.com/seoreporttools",
+              "https://github.com/seoreporttools"
+            ]
+          },
+          {
+            "@type": "WebApplication",
+            "name": "Free SEO Report Generator & SEO Tools Suite",
+            "url": "https://seoreporttools.com",
+            "applicationCategory": "SEOApplication",
+            "operatingSystem": "All",
+            "description": "Free SEO tools to analyze your website, generate SEO reports, check technical SEO, meta tags, backlinks, page speed, Core Web Vitals and more. No login required.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "googlePageSpeed": {
+    "dataSource": "live_engine",
+    "lighthouseScores": {
+      "seo": 100,
+      "performance": 100,
+      "accessibility": 92,
+      "bestPractices": 95
+    },
+    "coreWebVitals": {
+      "fcp": {
+        "value": 511,
+        "displayValue": "0.5 s",
+        "status": "good"
+      },
+      "lcp": {
+        "value": 1168,
+        "displayValue": "1.2 s",
+        "status": "good"
+      },
+      "cls": {
+        "value": 0.02,
+        "displayValue": "0.02",
+        "status": "good"
+      },
+      "tbt": {
+        "value": 40,
+        "displayValue": "40 ms",
+        "status": "good"
+      },
+      "speedIndex": {
+        "value": 613,
+        "displayValue": "0.6 s",
+        "status": "good"
+      }
+    },
+    "googleAudits": {
+      "titlePass": true,
+      "descriptionPass": true,
+      "crawlablePass": true,
+      "robotsTxtPass": true,
+      "imageAltPass": true,
+      "canonicalPass": true,
+      "tapTargetsPass": true,
+      "structuredDataPass": true,
+      "httpsPass": true,
+      "httpStatusCodePass": true
+    },
+    "deviceTested": "mobile",
+    "inspectedAt": "2026-09-29T11:48:40.144Z"
+  }
+}
